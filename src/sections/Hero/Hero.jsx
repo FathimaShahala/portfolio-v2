@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import profile from "../../assets/images/profile.png";
+// import profile from "../../assets/images/profile.png";
 import { desc } from "../../data/desc";
 
 export default function Hero() {
@@ -86,11 +86,11 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-cyan-500 blur-3xl opacity-30"></div>
 
-            <img
+            {/* <img
               src={profile}
               alt="Fathima Shahala"
               className="relative w-80 h-80 md:w-[420px] md:h-[420px] object-cover rounded-full border-4 border-cyan-400 shadow-2xl"
-            />
+            /> */}
           </div>
         </motion.div>
       </div>

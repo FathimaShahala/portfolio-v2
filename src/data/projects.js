@@ -60,7 +60,7 @@ export const projects = [
   {
     id: 2,
     featured: false,
-    title: "MigrantLink",
+    title: "WorkBridge",
     category: "MERN Web Application",
     description:
       "Role-based web platform connecting migrant workers, employers, police, and insurers.",

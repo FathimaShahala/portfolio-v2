@@ -30,13 +30,13 @@ export default function Projects() {
           MERN Stack and Flutter.
         </p>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <motion.div
               key={project.id}
               whileHover={{ y: -8 }}
               transition={{ duration: 0.3 }}
-              className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-lg hover:border-cyan-500"
+              className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-lg hover:border-cyan-400"
             >
               {/* Featured Badge */}
 

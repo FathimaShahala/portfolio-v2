@@ -12,7 +12,17 @@ import readingtracker from "../assets/projects/booknest/readingtracker.png";
 import readingtracker2 from "../assets/projects/booknest/readingtracker2.png";
 import readingtracker3 from "../assets/projects/booknest/readingtracker3.png";
 import readinggoal from "../assets/projects/booknest/readinggoal.png";
-import register from "../assets/projects/booknest/register.png";    
+import register from "../assets/projects/booknest/register.png"; 
+
+import admin from "../assets/projects/workbridge/admin.png";
+import employee from "../assets/projects/workbridge/employee.png";
+import insurance from "../assets/projects/workbridge/insurance.png";
+import labourofficer from "../assets/projects/workbridge/labourofficer.png";
+import police from "../assets/projects/workbridge/police.png";
+import worker from "../assets/projects/workbridge/worker.png";  
+import whome from "../assets/projects/workbridge/home.png";
+import wlogin from "../assets/projects/workbridge/login.png";
+import wregister from "../assets/projects/workbridge/register.png";
 
 export const projects = [
   {
@@ -53,25 +63,41 @@ export const projects = [
     ],
 
     github: "https://github.com/FathimaShahala/BookNest",
-    live: "",
+    live: "https://book-nest-sepia.vercel.app/",
 
   },
 // ------------------------------------
   {
     id: 2,
-    featured: false,
+    featured: true,
     title: "WorkBridge",
     category: "MERN Web Application",
     description:
-      "Role-based web platform connecting migrant workers, employers, police, and insurers.",
+      "A role-based workforce management platform connecting migrant workers, employers, labour officers, police, insurance providers, and administrators.",
  images: [
-      achievements,
-      addbook,
+     whome,
+     wlogin,
+     wregister,
+     admin,
+     employee,
+     police,
+     insurance,
+     labourofficer,
+     worker,
     ],
-    tech: ["React", "Node", "MongoDB", "Express"],
+    tech: ["React", "Node", "MongoDB", "Express", "JWT", "Axios"],
 
-    github: "",
-    live: "",
+    features: [
+    "Role-Based Authentication & Access Control",
+    "Job & Application Management",
+    "Worker & Employer Management",
+    "Complaint & Case Management",
+    "Workplace Inspections & Verification",
+    "Admin Dashboard & Platform Management",
+    "Reports, Notifications & Settings"
+    ],
+    github: "https://github.com/FathimaShahala/WorkBridge",
+    live: "https://work-bridge-blush.vercel.app/",
   },
 // ------------------------------------
   {

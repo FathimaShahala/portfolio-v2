@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/images/myphoto.jpg";
 import { desc } from "../../data/desc";
 
 export default function Hero() {
